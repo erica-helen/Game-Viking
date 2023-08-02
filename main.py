@@ -193,11 +193,6 @@ def game_loop():
                 barrel.drink_barrel(vik)
             elif dragon.colides_with(barrel):
                 barrel.random_position()
-                if barrel.drink_barrel(vik):
-                    dragon.hit()
-                    if dragon.is_hit:
-                        dragon.reset_hit()
-
 
         wizard.get_ready()
         if wizard.ready():
