@@ -1,2 +1,2 @@
 # Game-Viking
-Game em python using pygame library
+Game in python using pygame library
